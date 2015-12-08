@@ -1,5 +1,5 @@
 body {
-	background-color: #000000;
+	background-color: #0a0a0a;
 	font-family: arial;
 	text-align: center;
 }
@@ -22,20 +22,20 @@ p {
 	border-radius: 10px;
 }
 
-#reset {
-	display: block;
+.button {
+	display: inline-block;
 	color: #ffffff;
 	background-color: #994DEE;
 	border-radius: 5px;
 	margin: 25px auto;
-	width: 70px;
+	width: 80px;
 	height: 30px;
 	text-decoration: none;
 	line-height: 30px;
 	border: 3px groove #6218BC;
 }
 
-#reset:active {
+.button:active {
 	background: linear-gradient(top, #994DEE, #6218BC);
 	background: -webkit-linear-gradient(top, #994DEE, #6218BC);
 	background: -moz-linear-gradient(top, #994DEE, #6218BC);
@@ -43,26 +43,24 @@ p {
 	border: 3px inset #6218BC;
 }
 
+.long {
+	width: 160px;
+}
+
 .wrapper {
 	margin: 50px auto;
-	/* INSTRUCTIONS: CONSTANT WRAPPER WIDTH AND HEIGHT, .cell SIZE SHOULD VARY DEPENDING ON USER INPUT */
 	width: 600px;
 	height: 600px;
-	/* temporary */
-	/* background-color: #994DEE; */
 }
 
 /* orphan class for individual canvas cells*/
-/* INSTRUCTIONS: CONSTANT WRAPPER WIDTH AND HEIGHT, .cell SIZE SHOULD VARY DEPENDING ON USER INPUT */
 .cell {
 	display: inline-block;
 	margin: 0;
-/* 	width: 10px;
-	height: 10px; */
 	background-color: #994DEE;
 }
 
 /* orphan class for "visited" cells */
 .visited {
-	background-color: #EFD15A;
+	background-color: #000000;
 }
