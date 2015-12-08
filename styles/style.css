@@ -1,0 +1,68 @@
+body {
+	background-color: #000000;
+	font-family: arial;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	background-color: #f5f5f5;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 5px 0;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 16px;
+	background-color: #4B4B4B;
+	color: #ffffff;
+	margin: 5px 0;
+	padding: 5px 0;
+	border-radius: 10px;
+}
+
+#reset {
+	display: block;
+	color: #ffffff;
+	background-color: #994DEE;
+	border-radius: 5px;
+	margin: 25px auto;
+	width: 70px;
+	height: 30px;
+	text-decoration: none;
+	line-height: 30px;
+	border: 3px groove #6218BC;
+}
+
+#reset:active {
+	background: linear-gradient(top, #994DEE, #6218BC);
+	background: -webkit-linear-gradient(top, #994DEE, #6218BC);
+	background: -moz-linear-gradient(top, #994DEE, #6218BC);
+	background: -o-linear-gradient(top, #994DEE, #6218BC);
+	border: 3px inset #6218BC;
+}
+
+.wrapper {
+	margin: 50px auto;
+	/* INSTRUCTIONS: CONSTANT WRAPPER WIDTH AND HEIGHT, .cell SIZE SHOULD VARY DEPENDING ON USER INPUT */
+	width: 600px;
+	height: 600px;
+	/* temporary */
+	/* background-color: #994DEE; */
+}
+
+/* orphan class for individual canvas cells*/
+/* INSTRUCTIONS: CONSTANT WRAPPER WIDTH AND HEIGHT, .cell SIZE SHOULD VARY DEPENDING ON USER INPUT */
+.cell {
+	display: inline-block;
+	margin: 0;
+/* 	width: 10px;
+	height: 10px; */
+	background-color: #994DEE;
+}
+
+/* orphan class for "visited" cells */
+.visited {
+	background-color: #EFD15A;
+}
